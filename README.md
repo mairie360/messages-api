@@ -1,2 +1,2 @@
-# boilerplate
-A boilerplate for creating new Rust projects for this organization
+# messages-api
+The API service for Messages
