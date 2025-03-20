@@ -7,7 +7,7 @@
 CREATE TABLE
     messages (
         id SERIAL PRIMARY KEY,
-        sender INT REFERENCES users (id),
+        sender VARCHAR(320) NOT NULL,
         recipient VARCHAR(320) NOT NULL,
         content TEXT,
         is_read BOOLEAN DEFAULT FALSE,
